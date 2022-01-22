@@ -3,9 +3,9 @@
   &-item {
     position: relative;
     margin-right: 30px;
-  }
-  &-item:nth-child(3n) {
-    margin-right: 0;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
   }
 
   &-description {
